@@ -29,7 +29,7 @@ export function Footer() {
         </div>
 
         <div>
-        <h6 className={maintitle}>My Account</h6>
+        <p className={maintitle}>My Account</p>
         <div className={mainline}>
           <ul>
             <li>Login</li>
@@ -39,7 +39,7 @@ export function Footer() {
         </div>
 
         <div >
-        <h6 className={maintitle}>Customer Service</h6>
+        <p className={maintitle}>Customer Service</p>
         <div className={mainline}>
           <ul>
             <li>Contact</li>
@@ -49,7 +49,7 @@ export function Footer() {
         </div>
 
         <div >
-        <h6 className={maintitle}>join our social network</h6>
+        <p className={maintitle}>join our social network</p>
         <div>
           <ul className={socialicons}>
             <li>
