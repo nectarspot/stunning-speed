@@ -12,28 +12,28 @@ export function Brands() {
             <Link to={`/search?t=Frontline`}>
               <StaticImage 
               src="https://cdn.shopify.com/s/files/1/0075/8995/3587/files/frontline.png?v=1554375542"
-              alt="" />
+              alt="Frontline" />
             </Link>
           </div>
           <div className={image}>
             <Link to={`/search?q=bravecto`}>
               <StaticImage 
               src="https://cdn.shopify.com/s/files/1/0075/8995/3587/files/bravecto.png?v=1554375572"
-              alt="" />
+              alt="bravecto" />
             </Link>
           </div>
           <div className={image}>
             <Link to={`/search?q=royal%20canin`}>
               <StaticImage 
               src="https://cdn.shopify.com/s/files/1/0075/8995/3587/files/royal-canin.png?v=1554375557"
-              alt="" />
+              alt="royal+canin" />
             </Link>
           </div>
           <div className={image}>
             <Link to={`/search?q=revolution%20plus`}>
               <StaticImage 
               src="https://cdn.shopify.com/s/files/1/0075/8995/3587/files/revolution_logo.png?v=1554375597"
-              alt="" />
+              alt="revolutionplus" />
             </Link>
           </div>
       </div>

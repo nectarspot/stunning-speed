@@ -23,7 +23,7 @@ export function Story() {
                 best products at the best prices, period.
                 </p>
                 <ShopButton className={button} to={`/products`}>
-                READ MORE
+                SHOP NOW
                 </ShopButton>
             </div>
         </div>
