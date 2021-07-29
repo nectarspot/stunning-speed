@@ -1,0 +1,29 @@
+.layoutwrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+  .layoutwrapper{
+  max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+  .layoutwrapper{
+  max-width: 720px;
+  }
+}
+
+@media (min-width: 576px) and (max-width:768px) {
+  .layoutwrapper{
+  max-width: 540px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .layoutwrapper{
+    max-width: auto;
+    padding: 0 15px;
+  }
+}

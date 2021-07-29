@@ -1,0 +1,21 @@
+.listingContainerStyle {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  gap: var(--size-gutter-raw);
+  padding: 0 var(--size-gutter-raw);
+  max-width: 1200px;
+  margin: 0 auto 60px;
+}
+
+@media (max-width: 992px) {
+  .listingContainerStyle {
+  grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .listingContainerStyle {
+  grid-template-columns: 1fr;
+  }
+}

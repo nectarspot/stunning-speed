@@ -1,0 +1,32 @@
+.storywrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: var(--space-3xl);
+    grid-gap: var(--space-30);
+}
+
+.heading{
+    text-align: center;
+    font-size: var(--text-3xl);
+    color: #1b3766;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.mainpara{
+    color: #696969;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.button{
+    margin: 30px 0;
+}
+
+  @media (min-width: 320px) and (max-width:768px) {
+    .storywrapper {
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+      }
+   }

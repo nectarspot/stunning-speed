@@ -1,0 +1,29 @@
+.puppywrapper{
+    margin: 0 auto;
+    display: table;
+    margin-bottom: var(--space-3xl);
+}
+.mainTitle{
+    text-align: center;
+    font-size: var(--text-3xl);
+    color: #1b3766;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.subTitle{
+    text-align: center;
+    font-size: var(--text-2xl);
+    margin-bottom: 20px;
+    color: #696969;
+    line-height: 27px;
+}
+
+@media (max-width: 416px) {
+    .mainTitle{
+      font-size: var(--text-2xl);
+    }
+    .subTitle{
+        font-size: var(--text-xl);
+    }
+  }

@@ -1,0 +1,25 @@
+.addToCart {
+  display: flex;
+  flex-direction: row;
+  color: var(--text-color-inverted);
+  background-color: var(--primary);
+  align-self: flex-end;
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-30);
+  font-weight: var(--bold);
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.addToCart:hover {
+  border: 2px solid var(--primary);
+  color: var(--theme-blue);
+  background: transparent ;
+}
+
+@media (max-width:350px){
+  .addToCart {
+    margin-top: var(--space-lg);
+  }
+}
