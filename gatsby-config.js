@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     siteTitle: "NectarSpot Demo Store",
     siteTitleDefault: "gatsby-shopify by @NectarSpot Inc",
-    siteUrl: "https://shopify-demo.gatsbyjs.com",
+    siteUrl: "https://valuepetmeds.netlify.app/",
     hrefLang: "en",
     siteDescription:
       "A Gatsby shopify headless demo by NectarSpot Inc ",

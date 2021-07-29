@@ -4,3 +4,9 @@
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
+
+@media (max-width:576px) {
+    .ctawrapper{
+        display: none;
+    }
+}
