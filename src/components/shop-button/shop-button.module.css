@@ -1,8 +1,9 @@
 .shopButton {
   align-items: center;
-  background: var(--primary);
+  border: 2px solid var(--primary);
+  background: transparent ;
   border-radius: var(--radius-30);
-  color: var(--text-color-inverted);
+  color: var(--theme-blue-dark);
   display: flex;
   font-size: var(--text-md);
   font-weight: var(--semibold);
@@ -16,7 +17,7 @@
 }
 
 .shopButton:hover {
-  border: 2px solid var(--primary);
-  color: var(--theme-blue);
-  background: transparent ;
+  background: var(--primary);
+  color: var(--white);
+  
 }
