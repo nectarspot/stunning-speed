@@ -182,7 +182,6 @@
   padding-left: var(--space-lg);
   opacity: 0;
   width: var(--size-input);
-  height: var(--size-input);
   cursor: pointer;
   font-weight: var(--semibold);
   appearance: none;
