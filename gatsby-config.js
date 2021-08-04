@@ -28,5 +28,28 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
+
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `NectarSpot Demo Store`,
+        short_name: `VPM`,
+        start_url: `/`,
+        background_color: `#1b3766`,
+        theme_color: `#28aae4`,
+        display: `standalone`,
+        icon: `src/images/icon.png`,
+      },
+    },
+
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        workboxConfig: {
+          importWorkboxFrom: `cdn`,
+        },
+      },
+    },
+
   ].filter(Boolean),
 }
