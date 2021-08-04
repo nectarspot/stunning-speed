@@ -39,6 +39,9 @@ module.exports = {
         theme_color: `#28aae4`,
         display: `standalone`,
         icon: `src/images/icon.png`,
+        icon_options: {
+          purpose: `maskable`,
+        },
       },
     },
 
