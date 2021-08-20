@@ -13,6 +13,10 @@
     margin: var(--space-3xl);
 }
 
+.mobileShow{
+    display: none;
+}
+
   
   @media (min-width: 992px) and (max-width:1200px) {
    .mainTitle{
@@ -33,24 +37,14 @@
    }
 
    @media (max-width:576px){
-       .mobilehide{
-           display: none;
-       }
+
        .bannerwrapper{
         grid-template-columns: 1fr;
+        display: none;
        }
-       .mainTitle{
-        font-size: 30px;
-    }
-
+       .mobileShow{
+     
+        display: block;
+       }
     
    }
-
-   @media (max-width:415px){
-
-    .mainTitle{
-     font-size: 28px;
-     margin: var(--space-xl) 0;
- } 
-
-}
