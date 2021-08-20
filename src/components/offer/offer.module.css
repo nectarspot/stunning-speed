@@ -1,0 +1,56 @@
+.OfferWrapper{
+    background: var(--theme-blue-dark);
+    padding: 20px 0;
+}
+
+.OfferFont{
+    color: var(--white);
+}
+
+.OfferIcon{
+    color: var(--white);
+    cursor: pointer;
+
+}
+
+.OfferLink{
+    border: 2px solid var(--white);
+    border-radius: var(--radius-30);
+    align-items: center;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    height: 35px;
+    margin-left: 15px;
+}
+
+.OfferLink:hover {
+    color: white;
+    background: var(--theme-blue);
+    border: 2px solid var(--theme-blue);
+  }
+
+.OfferBanner{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.OfferSpan{
+    position: absolute;
+    right: 15%;
+}
+
+@media (max-width: 600px){
+    .OfferLink{
+        display: table;
+        margin: 1em auto 0;
+    }
+  }
+
+  @media (max-width: 600px){
+    .OfferSpan{
+        right: 5%;
+    }
+  }
